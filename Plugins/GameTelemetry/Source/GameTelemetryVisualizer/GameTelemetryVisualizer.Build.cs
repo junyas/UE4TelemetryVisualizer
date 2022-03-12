@@ -17,6 +17,8 @@ public class GameTelemetryVisualizer : ModuleRules
 	{
         PrivatePCHHeaderFile = "Private/TelemetryVisualizerPCH.h";
 
+        PublicDependencyModuleNames.Add("DeveloperSettings"); // need this for UE4.26 or above
+
 		PrivateDependencyModuleNames.AddRange(
 			new string[] {
 				"Core",
