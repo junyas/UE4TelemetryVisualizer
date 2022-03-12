@@ -23,7 +23,7 @@ Note that all examples given are when working with the Shooter Game example proj
 
 Example:
 ```
- For ShooterGame, the build file is located at Source/ShooterGame/ShooterGame.build
+ For ShooterGame, the build file is located at Source/ShooterGame/ShooterGame.build.cs
  ```
 
 6.	In the **PrivateDependencyModuleNames**, add **"GameTelemetry"**
